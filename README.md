@@ -8,6 +8,7 @@ Dependencies to Install
 Run the following command to install required packages:
 
     npm install react mathjs handsontable @emotion/react @emotion/styled
+    
 
     .    react → Core library for UI
     
