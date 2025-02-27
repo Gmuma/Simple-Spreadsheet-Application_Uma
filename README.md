@@ -47,7 +47,7 @@ handsontable → Powerful spreadsheet UI
     
 @emotion/react & @emotion/styled → Styling
 
-Features Implemented
+**Features Implemented**
 
 Basic Spreadsheet UI
 
@@ -55,58 +55,38 @@ Created a table structure for spreadsheet functionality.
 
 Added input fields for formula evaluation.
 
-Formula Evaluation
+**Formula Evaluation**
 
 Implemented an input box where users can enter formulas (e.g., =sum(1,2,3)).
 
 Developed a button (Evaluate) to compute the formula and display results.
 
-Text Formatting Options
+**Technologies Used**
 
-Added buttons for Bold, Italic, and Font Size.
+**Frontend**: React.js, JavaScript, CSS
 
-Applied CSS styles dynamically to the selected text.
+**Styling**: CSS3, Flexbox, Gradient Background
 
-Bug Fixes & Improvements
+**Development Tools**: VS Code, npm, React Hooks
 
-Fixed import/export issues in Spreadsheet.js.
+**How to Run the Project**
 
-Resolved missing variable errors (formula, setFormula, etc.).
-
-Eliminated duplicate UI elements appearing on the page.
-
-Enhanced UI/UX
-
-Removed background image and applied an attractive gradient background.
-
-Added smooth styling using CSS to make the app more user-friendly.
-
-Technologies Used
-
-Frontend: React.js, JavaScript, CSS
-
-Styling: CSS3, Flexbox, Gradient Background
-
-Development Tools: VS Code, npm, React Hooks
-
-How to Run the Project
-
-1. Clone the Repository
+**1. Clone the Repository**
 
     git clone https://github.com/yourusername/spreadsheet-app.git
     cd spreadsheet-app
 
-2. Install Dependencies
+**2. Install Dependencies**
 
     npm install
 
-3. Start the Development Server
+**3. Start the Development Server**
 
     npm start
 
-The app will be available at http://localhost:3000.
+**The app will be available at http://localhost:3000**.
 
-Future Enhancements
+**Future Enhancements**
 
 Add support for cell referencing (e.g., =A1+B1).
 
@@ -116,14 +96,10 @@ Enhance formula parsing to support complex operations.
 
 Improve error handling and validation.
 
-Screenshots
+**Author**
 
-(Add images if required)
+**GM. Umamaheswara Rao**
 
-Author
-
-GM. Umamaheswara Rao
-
-License
+**License**
 
 This project is licensed under the MIT License.
