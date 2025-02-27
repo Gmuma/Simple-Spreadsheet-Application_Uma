@@ -104,3 +104,5 @@ Improve error handling and validation.
 **License**
 
 This project is licensed under the MIT License.
+
+![image](https://github.com/user-attachments/assets/96564e1e-f06e-46f7-aac9-eef0ccac7de1)
