@@ -4,19 +4,48 @@
 
 This project is a Simple Spreadsheet Application built using React.js. It allows users to enter and evaluate formulas, apply text formatting (bold, italic, font size), and manage spreadsheet data dynamically.
 
-Dependencies to Install
+**Project SetUp**
+
+Run the following command in your terminal:
+
+    npx create-react-app google-sheets-clone
+
+This will generate a folder structure like this:
+
+google-sheets-clone/
+
+│── node_modules/
+
+│── public/
+
+│── src/
+
+│   ├── App.js
+│   ├── index.js
+│   ├── ...
+
+│── package.json
+
+│── README.md
+
+Navigate to Your Project
+    
+    cd google-sheets-clone
+
+**Dependencies to Install**
+
 Run the following command to install required packages:
 
     npm install react mathjs handsontable @emotion/react @emotion/styled
     
 
-    .    react → Core library for UI
+react → Core library for UI
     
-    .    mathjs → Evaluating mathematical formulas
+mathjs → Evaluating mathematical formulas
     
-    .    handsontable → Powerful spreadsheet UI
+handsontable → Powerful spreadsheet UI
     
-    .    @emotion/react & @emotion/styled → Styling
+@emotion/react & @emotion/styled → Styling
 
 Features Implemented
 
