@@ -9,6 +9,14 @@ Run the following command to install required packages:
 
     npm install react mathjs handsontable @emotion/react @emotion/styled
 
+    .    react → Core library for UI
+    
+    .    mathjs → Evaluating mathematical formulas
+    
+    .    handsontable → Powerful spreadsheet UI
+    
+    .    @emotion/react & @emotion/styled → Styling
+
 Features Implemented
 
 Basic Spreadsheet UI
