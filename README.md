@@ -6,7 +6,8 @@ This project is a Simple Spreadsheet Application built using React.js. It allows
 
 Dependencies to Install
 Run the following command to install required packages:
-npm install react mathjs handsontable @emotion/react @emotion/styled
+
+    npm install react mathjs handsontable @emotion/react @emotion/styled
 
 Features Implemented
 
