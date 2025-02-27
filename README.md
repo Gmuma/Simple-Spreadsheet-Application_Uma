@@ -1,4 +1,4 @@
-**Simple Spreadsheet Application**
+                                                **Simple Spreadsheet Application**
 
 **Overview**
 
@@ -21,7 +21,9 @@ google-sheets-clone/
 │── src/
 
 │   ├── App.js
+
 │   ├── index.js
+
 │   ├── ...
 
 │── package.json
