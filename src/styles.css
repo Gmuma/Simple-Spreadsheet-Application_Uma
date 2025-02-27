@@ -1,0 +1,91 @@
+/* Center the spreadsheet container */
+.spreadsheet-container {
+    background: rgba(255, 255, 255, 0.9); /* Light background for contrast */
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Title Style */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Toolbar Styling */
+.toolbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.toolbar-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.toolbar-btn:hover {
+    background-color: #388e3c;
+}
+
+/* Formula Bar Styling */
+.formula-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.formula-input {
+    width: 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.evaluate-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.evaluate-btn:hover {
+    background-color: #388e3c;
+}
+
+/* Table Styling */
+.spreadsheet-table {
+    width: 60%;
+    border-collapse: collapse;
+}
+
+.spreadsheet-table td {
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.spreadsheet-table td:focus {
+    outline: none;
+    background-color: #e3f2fd;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2); /* Attractive gradient */
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+}
