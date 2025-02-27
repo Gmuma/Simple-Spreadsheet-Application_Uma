@@ -1,70 +1,90 @@
-# Getting Started with Create React App
+**Simple Spreadsheet Application**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Overview**
 
-## Available Scripts
+This project is a Simple Spreadsheet Application built using React.js. It allows users to enter and evaluate formulas, apply text formatting (bold, italic, font size), and manage spreadsheet data dynamically.
 
-In the project directory, you can run:
+Dependencies to Install
+Run the following command to install required packages:
+npm install react mathjs handsontable @emotion/react @emotion/styled
 
-### `npm start`
+Features Implemented
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Basic Spreadsheet UI
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Created a table structure for spreadsheet functionality.
 
-### `npm test`
+Added input fields for formula evaluation.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Formula Evaluation
 
-### `npm run build`
+Implemented an input box where users can enter formulas (e.g., =sum(1,2,3)).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Developed a button (Evaluate) to compute the formula and display results.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Text Formatting Options
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Added buttons for Bold, Italic, and Font Size.
 
-### `npm run eject`
+Applied CSS styles dynamically to the selected text.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Bug Fixes & Improvements
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Fixed import/export issues in Spreadsheet.js.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Resolved missing variable errors (formula, setFormula, etc.).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Eliminated duplicate UI elements appearing on the page.
 
-## Learn More
+Enhanced UI/UX
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Removed background image and applied an attractive gradient background.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Added smooth styling using CSS to make the app more user-friendly.
 
-### Code Splitting
+Technologies Used
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Frontend: React.js, JavaScript, CSS
 
-### Analyzing the Bundle Size
+Styling: CSS3, Flexbox, Gradient Background
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Development Tools: VS Code, npm, React Hooks
 
-### Making a Progressive Web App
+How to Run the Project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. Clone the Repository
 
-### Advanced Configuration
+    git clone https://github.com/yourusername/spreadsheet-app.git
+    cd spreadsheet-app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+2. Install Dependencies
 
-### Deployment
+    npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+3. Start the Development Server
 
-### `npm run build` fails to minify
+    npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The app will be available at http://localhost:3000.
+
+Future Enhancements
+
+Add support for cell referencing (e.g., =A1+B1).
+
+Implement CSV import/export functionality.
+
+Enhance formula parsing to support complex operations.
+
+Improve error handling and validation.
+
+Screenshots
+
+(Add images if required)
+
+Author
+
+GM. Umamaheswara Rao
+
+License
+
+This project is licensed under the MIT License.
