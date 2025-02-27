@@ -1,4 +1,4 @@
-                                                **Simple Spreadsheet Application**
+**Simple Spreadsheet Application**
 
 **Overview**
 
