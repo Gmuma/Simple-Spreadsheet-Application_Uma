@@ -73,8 +73,7 @@ Developed a button (Evaluate) to compute the formula and display results.
 
 **1. Clone the Repository**
 
-    git clone https://github.com/yourusername/spreadsheet-app.git
-    cd spreadsheet-app
+    git clone https://github.com/Gmuma/Simple-Spreadsheet-Application_Uma.git
 
 **2. Install Dependencies**
 
